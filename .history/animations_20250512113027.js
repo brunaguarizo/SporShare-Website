@@ -11,6 +11,10 @@
         <link
             rel="stylesheet"
             href="styles.css" />
+        <!-- Add the animations CSS file -->
+        <link
+            rel="stylesheet"
+            href="animations.css" />
 
         <link
             rel="preconnect"
@@ -47,7 +51,7 @@
                 <div class="menu">
                     <a
                         class="menu-text"
-                        href="#about_us">
+                        href="#about-us">
                         About Us
                     </a>
                     <a
@@ -94,8 +98,7 @@
                     <div class="food-item food-item-4"><img  src="images/food/food4.png" alt="Food 4"></div>
                     <div class="food-item food-item-5"><img  src="images/food/food5.png" alt="Food 5"></div>
                     <div class="food-item food-item-6"><img  src="images/food/food6.png" alt="Food 6"></div>
-                    
-</div>
+                </div>
             </div>
         </section>
 
@@ -392,6 +395,7 @@
             <p class="footer-text">© 2025 SporkShare. All rights reserved.</p>
         </footer>
 
+        <!-- Add the JavaScript file at the end of the body -->
         <script src="animations.js"></script>
     </body>
 </html>
