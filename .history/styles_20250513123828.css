@@ -193,11 +193,6 @@ ul {
     border: none;
 }
 
-.btn-secondary:hover {
-    background-color: var(--green-900);
-    color: var(--green-secondary);
-}
-
 .btn-primary:hover {
     background-color: var(--green-primary);
     color: var(--green-secondary);
