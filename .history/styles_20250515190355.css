@@ -1171,14 +1171,20 @@ ul {
 @media (max-width: 600px) {
     .team_row3,
     .team_row2 {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        gap: var(--space-medium) !important;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: var(--space-medium);
+        justify-items: center;
     }
-    .team_item {
+    .team_member_img_bg {
         width: 100%;
-        max-width: 350px;
+        max-width: 180px;
+        height: 180px;
+        margin: 0 auto;
+    }
+    .team_member_img {
+        width: 100%;
+        max-width: 120px;
     }
 }
 
